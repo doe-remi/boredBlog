@@ -3,7 +3,7 @@ const { model, Schema } = require('mongoose');
 module.exports = model(
   'Blog',
   new Schema({
-    text: {
+    blog: {
       type: String,
       required: true
     },
